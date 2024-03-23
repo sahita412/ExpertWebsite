@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+    <section id = "map-section">
+        <gmp-map center=" 28.779079,77.125810" zoom="10" map-id="DEMO_MAP_ID">
+            <gmp-advanced-marker position="28.872068405151367,77.12247467041016" title="My location"></gmp-advanced-marker>
+            <gmp-advanced-marker position="28.6961727142334,77.13619232177734" title="My location"></gmp-advanced-marker>
+        </gmp-map>
+    </section>
+    <section id = "contact-details">
+        <div id = "address-section">
+            <div id="address-heading">Our offices</div>
+            <div id="address-div">
+                <div><p><span>Main office: </span></p><p>Jhulelal Apartments, Pitampura, Delhi-110034</p></div>
+                <div><p><span>Haryana office: </span></p><p>D1 Dahiya Market, Near Makhan Bhog, Kundli, Sonepat, Haryana-131028</p></div>
+                <div><p><span>Mobile: </span></p><p>+91 9810640657,<br> +91 9350052654</p></div>
+            </div>
+        </div>
+        <div id = "form-div"><%- include("partials/form.ejs") %></div>
+    </section>
+<%- include("partials/footer.ejs") %>
